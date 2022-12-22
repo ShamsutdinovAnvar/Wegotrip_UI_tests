@@ -1,0 +1,8 @@
+.idea
+.gradle
+.allure
+build
+video
+out
+allure-results
+.DS_Store
