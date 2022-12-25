@@ -1,5 +1,5 @@
 plugins {
-    id 'java-library'
+    id 'java'
     id 'io.qameta.allure' version '2.10.0'
 }
 
@@ -9,20 +9,20 @@ version '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
 }
+compileTestJava {options.encoding = 'UTF-8'}
 
-def allureVersion = "2.20.1",
-    selenideVersion = "6.9.0",
-    junitVersion = "5.9.1"
+def allureVersion = '2.20.0',
+    slf4jVersion = '2.0.4'
 
 allure {
     report {
-        version.set(allureVersion)
+        version.set('2.19.0')
     }
-    adapter {
-        aspectjWeaver.set(true)
+    adapter { // отвечает за появление  build/allure-results
+        aspectjWeaver.set(true) //обработка аннотации @Step
         frameworks {
-            junit5 {
-                adapterVersion.set(allureVersion)
+            junit5 { //название фреймворка
+                adapterVersion.set('2.19.0') //версия интеграции фреймворка и Allure
             }
         }
     }
@@ -30,40 +30,24 @@ allure {
 
 dependencies {
     testImplementation(
-            "org.aspectj:aspectjweaver:1.9.6",
-            "com.codeborne:selenide:$selenideVersion",
+            'org.junit.jupiter:junit-jupiter:5.9.1',
+            'com.codeborne:selenide:6.10.1',
             "io.qameta.allure:allure-selenide:$allureVersion",
-            "org.aeonbits.owner:owner:1.0.12",
-            "org.assertj:assertj-core:3.19.0",
-            "org.slf4j:slf4j-simple:1.7.29",
-            "org.junit.jupiter:junit-jupiter:$junitVersion",
-
+            "org.slf4j:slf4j-simple:$slf4jVersion",
+            'com.github.javafaker:javafaker:1.0.2',
+            'org.aeonbits.owner:owner:1.0.12'
     )
-}
-
-tasks.withType(JavaCompile) {
-    options.encoding = 'UTF-8'
-//    sourceCompatibility = JavaVersion.VERSION_1_8
-//    targetCompatibility = JavaVersion.VERSION_1_8
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.1'
 }
 
 tasks.withType(Test) {
-    systemProperties(System.getProperties())
     useJUnitPlatform()
-
-    if (System.getProperty("threads") != null) {
-        systemProperties += [
-                'junit.jupiter.execution.parallel.enabled'                 : true,
-                'junit.jupiter.execution.parallel.mode.default'            : 'concurrent',
-                'junit.jupiter.execution.parallel.mode.classes.default'    : 'concurrent',
-                'junit.jupiter.execution.parallel.config.strategy'         : 'fixed',
-                'junit.jupiter.execution.parallel.config.fixed.parallelism': System.getProperty("threads").toInteger()
-        ]
-    }
+    systemProperties(System.getProperties())
+    // устанавливаем язык хрома - русский
+    systemProperty "chromoptions.prefs","intl.accept_languages=en"
 
     testLogging {
         lifecycle {
-//            events "started", "failed"
             events "started", "skipped", "failed", "standard_error", "standard_out"
             exceptionFormat "short"
         }
