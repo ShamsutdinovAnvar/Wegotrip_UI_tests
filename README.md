@@ -7,9 +7,9 @@
 
 ## :page_with_curl:	Table of contents
 
-> :heavy_check_mark: [Tools and technologies](#Technologist)
+> :heavy_check_mark: [Tools and technologies](#Technologist-Tools-and-technologies)
 >
-> :heavy_check_mark: [Implemented checks](#ImplementedChecks)
+> :heavy_check_mark: [Implemented checks](#bookmark_tabs-Implemented-checks)
 >
 > :heavy_check_mark: [Running tests from the terminal](#terminal)
 >
