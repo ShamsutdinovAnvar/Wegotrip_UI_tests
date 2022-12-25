@@ -23,7 +23,7 @@
 >
 > :heavy_check_mark: [Notifications in Telegram using bot](#-Notifications-in-Telegram-using-bot)
 >
-> :heavy_check_mark: [Example of running test in Selenoid](#-Example-o-running-test-in-Selenoid)
+> :heavy_check_mark: [Example of running test in Selenoid](#-Example-of-running-test-in-Selenoid)
 
 ## :technologist: Tools and technologies
 
