@@ -56,7 +56,7 @@
 >*<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> используются для визуализации результатов тестирования.*
 
 
-### :ImplementedChecks: Implemented checks
+## :bookmark_tabs: Implemented checks
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UI
 
@@ -73,7 +73,7 @@
 >- [x] *Checking search for cities*
 
 
-### :terminal: Running tests from the terminal 
+## :computer: Running tests from the terminal 
 
 ### Local tests run
 
