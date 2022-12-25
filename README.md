@@ -43,17 +43,17 @@
 <code><img width="5%" title="Telegram" src="images/logo/Telegram.svg"></code>
 </p>
 
-> *В данном проекте автотесты написаны на <code><strong>*Java*</strong></code> с использованием фреймворка <code><strong>*Selenide*</strong></code> для UI-тестов.*
+> *In this project, autotests are written in <code><strong>*Java*</strong></code> using the <code><strong>*Selenide*</strong></code> framework for UI tests.*
 >
->*Для сборки проекта используется <code><strong>*Gradle*</strong></code>.*
+>*<code><strong>*Gradle*</strong></code> is used to build the project.*
 >
->*<code><strong>*JUnit 5*</strong></code> используется как фреймворк для модульного тестирования.*
+>*<code><strong>*JUnit 5*</strong></code> is used as a framework for unit testing.*
 >
->*Запуск тестов выполняется из <code><strong>*Jenkins*</strong></code>.*
+>*The tests are run from <code><strong>*Jenkins*</strong></code>.*
 >
->*<code><strong>*Selenoid*</strong></code> используется для запуска браузеров в контейнерах  <code><strong>*Docker*</strong></code>.*
+>*<code><strong>*Selenoid*</strong></code> is used to launch browsers in containers  <code><strong>*Docker*</strong></code>.*
 >
->*<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> используются для визуализации результатов тестирования.*
+>*<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> are used to visualize test results.*
 
 
 ## :bookmark_tabs: Implemented checks
@@ -96,79 +96,79 @@ gradle clean test
 
 ### Build parameters
 
-> <code>REMOTE_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
+> <code>REMOTE_URL</code> – the address of the remote server where the tests will be run.
 >
-> <code>BROWSER</code> – браузер, в котором будут выполняться тесты (_по умолчанию - <code>chrome</code>_).
+> <code>BROWSER</code> – the browser in which the tests will be run (by default - <code>chrome</code>_).
 >
-> <code>BROWSER_VERSION</code> – версия браузера, в которой будут выполняться тесты (_по умолчанию - <code>91.0</code>_).
+> <code>BROWSER_VERSION</code> – the browser version in which the tests will be run (by default - <code>91.0</code>_).
 >
-> <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты (_по умолчанию - <code>1920x1080</code>_).
+> <code>BROWSER_SIZE</code> – the size of the browser window in which the tests will be performed (by default - <code>1920x1080</code>_).
 
-## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/AUTO-638/)
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Run tests in [Jenkins](https://jenkins.autotests.cloud/job/AUTO-638/)
 
-*Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Собрать*</strong></code>.*
+*To start the build, you need to specify the parameter values and click <code><strong>*Build*</strong></code>.*
 
 <p align="center">
   <img src="images/screens/Jenkins.png" alt="job" width="800">
 </p>
 
-*После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки появится
-значок <img width="2%" title="Allure Report" src="images/logo/Allure.svg"><code><strong>*Allure
-Report*</strong></code>, кликнув по которому, откроется страница с сформированным html-отчетом.*
+*After the assembly is completed, an icon will appear in the <code><strong>*Build History*</strong></code> block next to the assembly number
+<img width="2%" title="Allure Report" src="images/logo/Allure.svg"><code><strong>*Allure
+Report*</strong></code>, clicking on which will open a page with a generated html report.*
 
 <p align="center">
   <img src="images/screens/Jenkins2.png" alt="job" width="1000">
 </p>
 
-## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/AUTO-638/8/allure/)
+## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Test results report in [Allure Report](https://jenkins.autotests.cloud/job/AUTO-638/8/allure/)
 
-### :pushpin: Общая информация
+### :pushpin: General information
 
-*Главная страница Allure-отчета содержит следующие информационные блоки:*
+*The main page of the Allure report contains the following information blocks:*
 
-> - [x] <code><strong>*ALLURE REPORT*</strong></code> - отображает дату и время прохождения теста, общее количество прогнанных кейсов, а также диаграмму с указанием процента и количества успешных, упавших и сломавшихся в процессе выполнения тестов
->- [x] <code><strong>*TREND*</strong></code> - отображает тренд прохождения тестов от сборки к сборке
->- [x] <code><strong>*SUITES*</strong></code> - отображает распределение результатов тестов по тестовым наборам
+> - [x] <code><strong>*ALLURE REPORT*</strong></code> - displays the date and time of passing the test, the total number of cases run, as well as a diagram indicating the percentage and number of successful, dropped and broken during the execution of tests
+>- [x] <code><strong>*TREND*</strong></code> - displays the trend of passing tests from build to build
+>- [x] <code><strong>*SUITES*</strong></code> - displays the distribution of test results by test sets
 >- [x] <code><strong>*ENVIRONMENT*</strong></code> - отображает тестовое окружение, на котором запускались тесты (в данном случае информация не задана)
->- [x] <code><strong>*CATEGORIES*</strong></code> - отображает распределение неуспешно прошедших тестов по видам дефектов
->- [x] <code><strong>*FEATURES BY STORIES*</strong></code> - отображает распределение тестов по функционалу, который они проверяют
->- [x] <code><strong>*EXECUTORS*</strong></code> - отображает исполнителя текущей сборки (ссылка на сборку в Jenkins)
+>- [x] <code><strong>*CATEGORIES*</strong></code> - displays the text environment on which the tests were run (in this case, the information is not specified)
+>- [x] <code><strong>*FEATURES BY STORIES*</strong></code> - displays the distribution of tests by the functionality they are checking
+>- [x] <code><strong>*EXECUTORS*</strong></code> - displays the executor of the current build
 
 <p align="center">
   <img src="images/screens/Alure_Report.png" alt="Allure Report" width="900">
 </p>
 
-## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/10145)
+## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Integration with [Allure TestOps](https://allure.autotests.cloud/launch/10145)
 
-### :pushpin: Основной дашборд
+### :pushpin: The main dashboard
 
 <p align="center">
   <img src="images/screens/Alure_TO.png" alt="dashboards" width="900">
 </p>
 
-### :pushpin: Тест-кейсы
+### :pushpin: Test cases
 
 <p align="center">
   <img src="images/screens/Alure_TO3.png" alt="test cases" width="900">
 </p>
 
-## <img width="4%" title="Jira" src="images/logo/Jira.svg"> Интеграция с [Jira](https://jira.autotests.cloud/browse/AUTO-638)
+## <img width="4%" title="Jira" src="images/logo/Jira.svg"> Integration with [Jira](https://jira.autotests.cloud/browse/AUTO-638)
 
 <p align="center">
   <img src="images/screens/Jira.png" alt="jira" width="1000">
 </p>
 
-## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
+## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Notifications in Telegram using bot
 
-> После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
+> After the assembly is completed, a special bot created in <code>Telegram</code> automatically processes and sends a message with a report on the test run.
 
 <p align="center">
 <img title="Telegram Notifications" src="images/screens/Telegram.png">
 </p>
 
-## <img width="4%" title="Selenoid" src="images/logo/Selenoid.svg"> Пример запуска теста в Selenoid
+## <img width="4%" title="Selenoid" src="images/logo/Selenoid.svg"> Example of running test in Selenoid
 
-> К каждому тесту в отчете прилагается видео.
+> Video is attached to each test in the report.
 <p align="center">
   <img title="Selenoid Video" src="images/gif/test.gif">
 </p>
