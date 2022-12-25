@@ -55,13 +55,17 @@
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UI
 
-> - [x] *Проверка загрузки баннера на главной странице*
->- [x] *Проверка работоспособности модуля авторизации*
->- [x] *Проверка наличия 'title' в 'header'*
->- [x] *Проверка раздела 'Тарифные планы'*
->- [x] *Проверка раздела 'Интернет пакеты'*
->- [x] *Проверка раздела 'О нас'*
->- [x] *Проверка раздела 'Вакансии'*
+> - [x] *Checking the operation of the button "Help"*
+>- [x] *Checking the operation of the button "Favorites"*
+>- [x] *Checking the operation of the button "Account"*
+>- [x] *Checking the operation of the button "Explore all destinations"*
+>- [x] *Checking city page title*
+>- [x] *Checking block "Top attractions in city"*
+>- [x] *Checking block "Popular cities to visit in country"*
+>- [x] *Checking block "Top attractions in country"*
+>- [x] *Checking authorization with login/password*
+>- [x] *Checking search for attractions*
+>- [x] *Checking search for cities*
 
 
 ## :computer: Запуск тестов из терминала 
