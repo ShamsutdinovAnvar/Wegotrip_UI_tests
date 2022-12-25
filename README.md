@@ -33,9 +33,8 @@
 <code><img width="5%" title="GitHub" src="images/logo/GitHub.svg"></code>
 <code><img width="5%" title="Allure Report" src="images/logo/Allure.svg"></code>
 <code><img width="5%" title="Allure TestOps" src="images/logo/Allure_TO.svg"></code>
-<code><img width="5%" title="RestAssured" src="images/logo/RestAssured.svg"></code>
 <code><img width="5%" title="Jenkins" src="images/logo/Jenkins.svg"></code>
-<code><img width="5%" title="Jira" src="images/logo/Java.svg"></code>
+<code><img width="5%" title="Jira" src="images/logo/Jira.svg"></code>
 <code><img width="5%" title="Telegram" src="images/logo/Telegram.svg"></code>
 </p>
 
