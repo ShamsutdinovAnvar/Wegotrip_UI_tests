@@ -1,26 +1,31 @@
-# Проект по автоматизации тестирования сайта WeGoTrip
+# Test automation project for service WeGoTrip
 ![Bookmate_logo.png](images/screens/background.webp)
-## :page_with_curl:	Содержание
 
-> :heavy_check_mark: [Технологии и инструменты](#technologist-технологии-и-инструменты)
->
-> :heavy_check_mark: [Реализованы проверки](#bookmark_tabs-реализованы-проверки)
->
-> :heavy_check_mark: [Запуск тестов из терминала](#computer-Запуск-тестов-из-терминала)
->
-> :heavy_check_mark: [Запуск тестов в Jenkins](#-запуск-тестов-в-jenkins)
->
-> :heavy_check_mark: [Отчет о результатах тестирования в Allure Report](#-отчет-о-результатах-тестирования-в-allure-report)
-> 
-> :heavy_check_mark: [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
-> 
-> :heavy_check_mark: [Интеграция с Jira](#-интеграция-с-jira)
->
-> :heavy_check_mark: [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
->
-> :heavy_check_mark: [Пример запуска теста в Selenoid](#-пример-запуска-теста-в-selenoid)
+> WeGoTrip is the best travel app with audio guide to pass\
+> self guided walking tours and to buy tickets to museums of the world\
+> with personal skip the line or fast-track access.
 
-## :technologist: Технологии и инструменты
+## :page_with_curl:	Table of contents
+
+> :heavy_check_mark: [Tools and technologies](#Technology)
+>
+> :heavy_check_mark: [Implemented checks](#Implemented checks)
+>
+> :heavy_check_mark: [Running tests from the terminal](#computer-Running tests from the terminal)
+>
+> :heavy_check_mark: [Run tests in Jenkins](#-Run tests in Jenkins)
+>
+> :heavy_check_mark: [Test results report in Allure Report](#-Test results report in Allure Report)
+> 
+> :heavy_check_mark: [Integration with Allure TestOps](#-Integration with Allure TestOps)
+> 
+> :heavy_check_mark: [Integration with Jira](#-Integration with Jira)
+>
+> :heavy_check_mark: [Notifications in Telegram using bot](#-Notifications in Telegram using bot)
+>
+> :heavy_check_mark: [Example of running test in Selenoid](#-Example of running test in Selenoid)
+
+## :technologist: Tools and technologies
 
 <p  align="center"
 
