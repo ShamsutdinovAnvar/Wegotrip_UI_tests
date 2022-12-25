@@ -1,10 +1,11 @@
 package com.wegotrip.tests;
 
+import com.wegotrip.BaseTest;
 import com.wegotrip.pages.SearchPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class SearchTest extends TestBase {
+public class SearchTest extends BaseTest {
     SearchPage searchPage = new SearchPage();
 
     @Test

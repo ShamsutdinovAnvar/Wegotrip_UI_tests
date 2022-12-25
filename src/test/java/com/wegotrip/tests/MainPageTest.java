@@ -1,10 +1,11 @@
 package com.wegotrip.tests;
 
+import com.wegotrip.BaseTest;
 import com.wegotrip.pages.MainPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class MainPageTest extends TestBase {
+public class MainPageTest extends BaseTest {
     MainPage mainPage = new MainPage();
 
     @Test

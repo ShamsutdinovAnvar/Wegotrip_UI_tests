@@ -1,10 +1,11 @@
 package com.wegotrip.tests;
 
+import com.wegotrip.BaseTest;
 import com.wegotrip.pages.CityPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class CityTest extends TestBase {
+public class CityTest extends BaseTest {
     CityPage cityPage = new CityPage();
 
     @Test
