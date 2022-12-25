@@ -9,21 +9,21 @@
 
 > :heavy_check_mark: [Tools and technologies](#Technologist)
 >
-> :heavy_check_mark: [Implemented checks](#Implemented_checks)
+> :heavy_check_mark: [Implemented checks](#ImplementedChecks)
 >
-> :heavy_check_mark: [Running tests from the terminal](#computer-Running_tests_from_the_terminal)
+> :heavy_check_mark: [Running tests from the terminal](#terminal)
 >
-> :heavy_check_mark: [Run tests in Jenkins](#-Run_tests_in_Jenkins)
+> :heavy_check_mark: [Run tests in Jenkins](#-RunJenkins)
 >
-> :heavy_check_mark: [Test results report in Allure Report](#-Test results report in Allure Report)
+> :heavy_check_mark: [Test results report in Allure Report](#-TestResultsAllureReport)
 > 
-> :heavy_check_mark: [Integration with Allure TestOps](#-Integration with Allure TestOps)
+> :heavy_check_mark: [Integration with Allure TestOps](#-IntegrationAllureTestOps)
 > 
-> :heavy_check_mark: [Integration with Jira](#-Integration with Jira)
+> :heavy_check_mark: [Integration with Jira](#-IntegrationJira)
 >
-> :heavy_check_mark: [Notifications in Telegram using bot](#-Notifications in Telegram using bot)
+> :heavy_check_mark: [Notifications in Telegram using bot](#-NotificationsTelegram)
 >
-> :heavy_check_mark: [Example of running test in Selenoid](#-Example of running test in Selenoid)
+> :heavy_check_mark: [Example of running test in Selenoid](#-ExampleSelenoid)
 
 ## :technologist: Tools and technologies
 
@@ -56,7 +56,7 @@
 >*<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> используются для визуализации результатов тестирования.*
 
 
-## :Implemented_checks: Implemented checks
+## :ImplementedChecks: Implemented checks
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UI
 
@@ -73,7 +73,7 @@
 >- [x] *Checking search for cities*
 
 
-## :computer: Running tests from the terminal 
+## :terminal: Running tests from the terminal 
 
 ### Local tests run
 
