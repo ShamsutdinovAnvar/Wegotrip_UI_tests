@@ -7,13 +7,13 @@
 
 ## :page_with_curl:	Table of contents
 
-> :heavy_check_mark: [Tools and technologies](#Technology)
+> :heavy_check_mark: [Tools and technologies](#Technologist)
 >
-> :heavy_check_mark: [Implemented checks](#Implemented checks)
+> :heavy_check_mark: [Implemented checks](#Implemented_checks)
 >
-> :heavy_check_mark: [Running tests from the terminal](#computer-Running tests from the terminal)
+> :heavy_check_mark: [Running tests from the terminal](#computer-Running_tests_from_the_terminal)
 >
-> :heavy_check_mark: [Run tests in Jenkins](#-Run tests in Jenkins)
+> :heavy_check_mark: [Run tests in Jenkins](#-Run_tests_in_Jenkins)
 >
 > :heavy_check_mark: [Test results report in Allure Report](#-Test results report in Allure Report)
 > 
@@ -56,7 +56,7 @@
 >*<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> используются для визуализации результатов тестирования.*
 
 
-## :bookmark_tabs: Implemented checks
+## :Implemented_checks: Implemented checks
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UI
 
