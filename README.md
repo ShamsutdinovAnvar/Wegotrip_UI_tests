@@ -56,7 +56,7 @@
 >*<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> используются для визуализации результатов тестирования.*
 
 
-## :bookmark_tabs: Реализованы проверки
+## :bookmark_tabs: Implemented checks
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UI
 
@@ -73,15 +73,15 @@
 >- [x] *Checking search for cities*
 
 
-## :computer: Запуск тестов из терминала 
+## :computer: Running tests from the terminal 
 
-### Локальный запуск тестов
+### Local tests run
 
 ```bash
 gradle clean test
 ```
 
-### Удаленный запуск тестов
+### Remote tests run
 
 ```bash
 gradle clean test 
@@ -94,7 +94,7 @@ gradle clean test
 -Dthreads=${THREADS}
 ```
 
-### Параметры сборки
+### Build parameters
 
 > <code>REMOTE_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
 >
