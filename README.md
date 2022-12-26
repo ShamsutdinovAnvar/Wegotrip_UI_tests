@@ -1,8 +1,8 @@
-# Test automation project for service WeGoTrip
+# Test automation project (UI) for service WeGoTrip
 ![Bookmate_logo.png](images/screens/background.webp)
 
-> WeGoTrip is the best travel app with audio guide to pass\
-> self guided walking tours and to buy tickets to museums of the world\
+> WeGoTrip is the best travel app with audio guide to pass
+> self guided walking tours and to buy tickets to museums of the world
 > with personal skip the line or fast-track access.
 
 ## :page_with_curl:	Table of contents
@@ -129,7 +129,7 @@ Report*</strong></code>, clicking on which will open a page with a generated htm
 > - [x] <code><strong>*ALLURE REPORT*</strong></code> - displays the date and time of passing the test, the total number of cases run, as well as a diagram indicating the percentage and number of successful, dropped and broken during the execution of tests
 >- [x] <code><strong>*TREND*</strong></code> - displays the trend of passing tests from build to build
 >- [x] <code><strong>*SUITES*</strong></code> - displays the distribution of test results by test sets
->- [x] <code><strong>*ENVIRONMENT*</strong></code> - отображает тестовое окружение, на котором запускались тесты (в данном случае информация не задана)
+>- [x] <code><strong>*ENVIRONMENT*</strong></code> - displays the text environment on which the tests were run (in this case, the information is not specified)
 >- [x] <code><strong>*CATEGORIES*</strong></code> - displays the text environment on which the tests were run (in this case, the information is not specified)
 >- [x] <code><strong>*FEATURES BY STORIES*</strong></code> - displays the distribution of tests by the functionality they are checking
 >- [x] <code><strong>*EXECUTORS*</strong></code> - displays the executor of the current build
