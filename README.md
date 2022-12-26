@@ -135,7 +135,7 @@ Report*</strong></code>, clicking on which will open a page with a generated htm
 >- [x] <code><strong>*EXECUTORS*</strong></code> - displays the executor of the current build
 
 <p align="center">
-  <img src="images/screens/Alure_Report.png" alt="Allure Report" width="900">
+  <img src="images/screens/Allure_Report.png" alt="Allure Report" width="900">
 </p>
 
 ## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Integration with [Allure TestOps](https://allure.autotests.cloud/launch/10145)
@@ -143,13 +143,13 @@ Report*</strong></code>, clicking on which will open a page with a generated htm
 ### :pushpin: The main dashboard
 
 <p align="center">
-  <img src="images/screens/Alure_TO.png" alt="dashboards" width="900">
+  <img src="images/screens/Allure_TO.png" alt="dashboards" width="900">
 </p>
 
 ### :pushpin: Test cases
 
 <p align="center">
-  <img src="images/screens/Alure_TO3.png" alt="test cases" width="900">
+  <img src="images/screens/Allure_TO3.png" alt="test cases" width="900">
 </p>
 
 ## <img width="4%" title="Jira" src="images/logo/Jira.svg"> Integration with [Jira](https://jira.autotests.cloud/browse/AUTO-638)
