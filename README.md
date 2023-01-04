@@ -11,11 +11,11 @@
 >
 > :heavy_check_mark: [Implemented checks](#bookmark_tabs-Implemented-checks)
 >
-> :heavy_check_mark: [Running tests from the terminal](#-Running-tests-from-the-terminal)
+> :heavy_check_mark: [Running tests from the terminal](#computer-Running-tests-from-the-terminal)
 >
 > :heavy_check_mark: [Run tests in Jenkins](#-Run-tests-in-Jenkins)
 >
-> :heavy_check_mark: [Test results report in Allure Report](#-Test-result-report-in-Allure-Report)
+> :heavy_check_mark: [Test results report in Allure Report](#-Test-results-report-in-Allure-Report)
 > 
 > :heavy_check_mark: [Integration with Allure TestOps](#-Integration-with-Allure-TestOps)
 > 
@@ -104,7 +104,7 @@ gradle clean test
 >
 > <code>BROWSER_SIZE</code> – the size of the browser window in which the tests will be performed (by default - <code>1920x1080</code>_).
 
-## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Run tests in [Jenkins](https://jenkins.autotests.cloud/job/AUTO-638/)
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Run tests in [Jenkins](https://jenkins.autotests.cloud/job/Wegotrip_FINAL/)
 
 *To start the build, you need to specify the parameter values and click <code><strong>*Build*</strong></code>.*
 
@@ -120,7 +120,7 @@ Report*</strong></code>, clicking on which will open a page with a generated htm
   <img src="images/screens/Jenkins2.png" alt="job" width="1000">
 </p>
 
-## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Test results report in [Allure Report](https://jenkins.autotests.cloud/job/AUTO-638/8/allure/)
+## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Test results report in [Allure Report](https://jenkins.autotests.cloud/job/Wegotrip_FINAL/6/allure/)
 
 ### :pushpin: General information
 
@@ -138,7 +138,7 @@ Report*</strong></code>, clicking on which will open a page with a generated htm
   <img src="images/screens/Allure_Report.png" alt="Allure Report" width="900">
 </p>
 
-## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Integration with [Allure TestOps](https://allure.autotests.cloud/launch/10145)
+## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Integration with [Allure TestOps](https://allure.autotests.cloud/launch/17903)
 
 ### :pushpin: The main dashboard
 
@@ -152,7 +152,7 @@ Report*</strong></code>, clicking on which will open a page with a generated htm
   <img src="images/screens/Allure_TO3.png" alt="test cases" width="900">
 </p>
 
-## <img width="4%" title="Jira" src="images/logo/Jira.svg"> Integration with [Jira](https://jira.autotests.cloud/browse/AUTO-638)
+## <img width="4%" title="Jira" src="images/logo/Jira.svg"> Integration with [Jira](https://jira.autotests.cloud/browse/HOMEWORK-484)
 
 <p align="center">
   <img src="images/screens/Jira.png" alt="jira" width="1000">
