@@ -12,10 +12,12 @@ import static com.wegotrip.pages.testdata.UserData.username;
 
 public class LoginPage {
     private final LoginComponent loginComponent = new LoginComponent();
+
     public LoginPage openPage(String url) {
         open(url);
         return this;
     }
+
     public LoginPage checkLogin() {
         open("https://wegotrip.com");
         $(byText("Account")).click();
@@ -24,6 +26,7 @@ public class LoginPage {
         $("a[href='/en/bookings/']").shouldHave(text("My tours and tickets"));
         return this;
     }
+
     public LoginPage clear() {
         Selenide.clearBrowserCookies();
         Selenide.clearBrowserLocalStorage();

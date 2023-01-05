@@ -12,6 +12,7 @@ public class SearchPage {
         open(url);
         return this;
     }
+
     public SearchPage checkAttractionSearch() {
         $(".Search__input").setValue(attraction).pressEnter();
         $("a[href='/en/paris-d3/']").shouldHave(text("Paris"));

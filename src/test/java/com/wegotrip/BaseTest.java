@@ -9,6 +9,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
+
 import static io.qameta.allure.Allure.step;
 
 import com.wegotrip.helpers.AllureAttachments;
@@ -18,9 +19,9 @@ public class BaseTest {
     static void setUp() {
         ProjectProvider.configBase();
 
-        step("Устанавливаем интеграцию с Selenide", () ->
+        step("Installing integration with Selenide", () ->
                 SelenideLogger.addListener("AllureSelenide", new AllureSelenide()));
-        step("Устанавливаем конфигурацию", () -> {
+        step("Setting the configuration", () -> {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
@@ -30,7 +31,7 @@ public class BaseTest {
 
     @AfterEach
     void addAttachments() {
-        step("прикрепляем логи и отчеты выполнения", () -> {
+        step("Attach logs and execution reports", () -> {
             AllureAttachments.screenshotAs("Last screenshot");
             AllureAttachments.pageSource();
             AllureAttachments.browserConsoleLogs();
@@ -40,13 +41,10 @@ public class BaseTest {
 
     @AfterAll
     static void CloseWebDriver() {
-        step("закрываем вебдрайвер", () -> {
+        step("Closing the web driver", () -> {
                     Selenide.closeWindow();
                     Selenide.closeWebDriver();
                 }
         );
     }
-
 }
-
-

@@ -12,6 +12,7 @@ public class CityPage {
         open("/en/london-d8/");
         return this;
     }
+
     public CityPage checkCityPageTitle() {
         $(".h1.Hero__title").shouldHave(text("Self-Guided Walking Tours in London"));
         return this;
@@ -21,6 +22,7 @@ public class CityPage {
         $(byText("Top attractions in London")).shouldHave(appear);
         return this;
     }
+
     public CityPage checkBlockPopularCitiesInCountry() {
         $(byText("Popular cities to visit in United Kingdom")).shouldHave(appear);
         return this;

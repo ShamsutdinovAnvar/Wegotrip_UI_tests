@@ -5,6 +5,7 @@ import org.aeonbits.owner.ConfigFactory;
 
 public class ProjectProvider {
     static BaseTestConfig configBase = ConfigFactory.create(BaseTestConfig.class, System.getProperties());
+
     public static void configBase() {
         Configuration.baseUrl = ProjectProvider.configBase.getBaseUrl();
         Configuration.browser = ProjectProvider.configBase.getBrowser();
@@ -15,5 +16,4 @@ public class ProjectProvider {
             Configuration.remote = remoteUrl;
         }
     }
-
 }

@@ -32,12 +32,9 @@ public class MainPage {
         return this;
     }
 
-
     public MainPage checkBlockDestinations() {
         $("a[href='/en/destinations/']").click();
         $(".Breadcrumbs__item.Breadcrumbs__item--current").shouldHave(text("All destinations"));
         return this;
     }
-
-
 }
