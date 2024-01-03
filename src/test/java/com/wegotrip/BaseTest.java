@@ -28,7 +28,6 @@ public class BaseTest {
             Configuration.browserCapabilities = capabilities;
         });
     }
-
     @AfterEach
     void addAttachments() {
         step("Attach logs and execution reports", () -> {
